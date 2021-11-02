@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Api = axios.create({baseURL: "https://js-react-notes-api.herokuapp.com"})
+const Api = axios.create({baseURL: process.env.REACT_APP_BASE_API})
 
 export default Api;
 	
